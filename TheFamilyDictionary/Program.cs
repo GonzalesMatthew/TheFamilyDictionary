@@ -13,9 +13,9 @@ namespace TheFamilyDictionary
             myFamily.Add("uncle", new Dictionary<string, string>() { { "name", "Paulo" }, { "age", "55" } });
             myFamily.Add("mother", new Dictionary<string, string>() { { "name", "Roxie" }, { "age", "57" } });
 
-            foreach(KeyValuePair<string> entry in myFamily)
+            foreach (KeyValuePair<string, Dictionary<string, string>> entry in myFamily)
             {
-
+                
             }
         }
     }
